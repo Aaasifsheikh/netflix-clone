@@ -20,7 +20,7 @@ function Nav() {
   }, []);
   return (
     <div className={`nav ${show && "nav_black"}`}>
-      <NavLink to="/netflix-clone">
+      <NavLink to="/netflux-clone">
         <img src={netflix} className="nav_logo" alt="netflix_logo" />
       </NavLink>
       <img src={avatar} className="nav_avatar" alt="netflix_logo" />

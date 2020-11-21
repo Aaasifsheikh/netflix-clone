@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/netflix-clone" component={Home} />
+          <Route exact path="/netflx" component={Home} />
         </Switch>
       </Router>
     </div>
